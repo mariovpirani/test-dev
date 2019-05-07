@@ -37,4 +37,7 @@ Nesse teste foi solicitado desenvolver com laravel um sistema de ticket de supor
 Primeiramente quero agradecer pela oportunidade de participar dessa vaga, e qualquer dúvida no código estou a disposição para explicar meu raciocínio. 
 
 
-## Vídeo em anexo com passos do sistema
+## Vídeo  com passos do sistema
+
+http://tosempreai.com.br/video-teste/teste.mp4
+
