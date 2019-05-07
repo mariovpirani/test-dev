@@ -1,7 +1,7 @@
 <div class="container topoSystem">
 	<div class="row">
 		<div class="col-sm-12 text-center logo ">
-			<a href="{{ url('/') }}"><img src="{{url('/uploads/images/west-wing-logo.png')}}" alt="West Wing"/></a>
+			<a href="{{ url('/') }}"><img src="{{url('uploads/images/west-wing-logo.png')}}" alt="West Wing"/></a>
 		</div>
 	</div>
 	<div class="row">

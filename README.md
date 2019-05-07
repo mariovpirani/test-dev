@@ -19,3 +19,22 @@ Nesse teste foi solicitado desenvolver com laravel um sistema de ticket de supor
 - Less
 
 
+## Passos
+- mv .env.alterar .env
+- sudo composer update
+- sudo docker-compose up -d
+- docker exec -it webserver composer update
+- sudo docker exec -it webserver php artisan migrate
+
+
+- Link Sistema - http://0.0.0.0:9080/
+- Link Phpmyadmin - http://0.0.0.0:8082/
+
+
+
+## Oportunidade
+
+Primeiramente quero agradecer pela oportunidade de participar dessa vaga, e qualquer dúvida no código estou a disposição para explicar meu raciocínio. 
+
+
+## Vídeo em anexo com passos do sistema
