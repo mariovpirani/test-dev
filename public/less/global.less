@@ -1,0 +1,159 @@
+/**
+ * global.less
+ *
+ * @package		Less
+ * @subpackage	Estilo
+ * @version 	1.0.0.0 
+ * @author		Bross - Developer 
+ * @date(2019-05-01)
+ *
+ */
+
+ /************************Import Pages****************************/
+
+ @import 'functions.less';
+ @import 'cores.less';
+
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+ body{
+ 	font-family: 'Open Sans', sans-serif; 
+ }
+.table-responsive {
+    display: table;
+}
+ .topoSystem{
+ 	.logo{
+ 		img{
+ 			width: 100%;
+ 			max-width: 232px;
+ 			.paddingGlobal(20px,0,30px,0);
+ 		}
+ 	}
+ 	.menu{
+ 		margin:0px 10px 30px 10px;
+ 		padding:5px;
+ 		background-color: @colorDefault;
+ 		
+ 		.borderRadius(10px);
+ 		a{
+ 			color:white;
+ 		}
+ 	}
+ }
+ .ticketHome
+ {
+ 	
+ 	h2{
+ 		color: @colorDefault2; 
+ 		
+ 		font-size: 24px; 
+ 		font-weight: 300; 
+ 		line-height: 40px; 
+ 		margin: 0 0 16px; 
+
+ 	}
+ 	.btn-system{
+ 		background: @colorDefault;
+ 		box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
+ 		margin-top: 10px;
+ 		color:white;
+ 	}
+ 	input,textarea{
+ 		background: white;
+ 		color: @inputTextcolor;
+ 		font: inherit;
+ 		box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
+ 		outline: 0;
+ 		padding: 22px 18px;
+ 	}
+
+ }
+
+ .ticketView{
+ 	h2{
+ 		color: @colorDefault2; 
+ 		
+ 		font-size: 24px; 
+ 		font-weight: 300; 
+ 		line-height: 40px; 
+ 		margin: 0 0 16px; 
+
+ 	}
+ 	.textTicket{
+ 		color: black; 
+ 		
+ 		font-size: 24px; 
+ 		font-weight: 300; 
+ 		line-height: 30px; 
+ 		margin: 0 0 16px; 
+ 	}
+ 	.textUser{
+ 		color: black; 
+ 		
+ 		font-size: 24px; 
+ 		font-weight: 300; 
+ 		line-height: 30px; 
+ 		margin: 0 0 16px; 
+ 	}
+ 	.btn-search{
+ 		height: 45px;
+ 		background: @colorDefault;
+ 		box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
+ 		color:white;
+ 	}
+ 	.btn-system{
+ 		background: @colorDefault;
+ 		box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
+ 		margin-top: 10px;
+ 		color:white;
+ 	}
+ 	input,textarea{
+ 		background: white;
+ 		color: @inputTextcolor;
+ 		font: inherit;
+ 		box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
+ 		outline: 0;
+ 		padding: 22px 18px;
+ 	}
+
+ }
+
+ .footer{
+ 	font-size: 12px;
+ 	.padding(30px);
+ 	color: black; 
+ }
+
+
+ @media (max-width: 768px){
+ 	 .ticketView{
+ 	
+ 	.btn-search{
+ 		margin-top: 10px;
+ 		margin-bottom: 10px;
+ 	}
+ 
+ 	
+
+ }
+
+ 	.topoSystem{
+
+ 		.menu{
+ 			margin:0px 10px 10px 10px;
+
+ 		}
+ 	}
+ 	.ticketHome
+ 	{
+ 		h2{
+
+ 			margin: 30px 0 16px; 
+
+ 		}
+
+
+ 	}
+
+ }

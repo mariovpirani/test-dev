@@ -1,0 +1,23 @@
+/**
+ * global.less
+ *
+ * @package		Less
+ * @subpackage	Estilo
+ * @version 	1.0.0.0 
+ * @author		Bross - Developer 
+ * @date(2019-05-01)
+ *
+ */
+/************************Import Pages****************************/
+.topoSystem img {
+  width: 100%;
+  max-width: 262px;
+}
+@media (max-width: 768px) {
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
+}

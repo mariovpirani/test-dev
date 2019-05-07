@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/**
+ * global.less
+ *
+ * @package		Less
+ * @subpackage	Estilo
+ * @version 	1.0.0.0 
+ * @author		Bross - Developer 
+ * @date(2019-05-01)
+ *
+ */
+/************************Import Pages****************************/
+/***********************Border Radius*****************************/
+/****************************************************************/
+/************************Box Shadow******************************/
+/****************************************************************/
+/**************************Padding*******************************/
+/****************************************************************/
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.table-responsive {
+  display: table;
+}
+.topoSystem .logo img {
+  width: 100%;
+  max-width: 232px;
+  padding: 20px 0 30px 0;
+}
+.topoSystem .menu {
+  margin: 0px 10px 30px 10px;
+  padding: 5px;
+  background-color: #89bba5;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+.topoSystem .menu a {
+  color: white;
+}
+.ticketHome h2 {
+  color: #62bba5;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 40px;
+  margin: 0 0 16px;
+}
+.ticketHome .btn-system {
+  background: #89bba5;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  color: white;
+}
+.ticketHome input,
+.ticketHome textarea {
+  background: white;
+  color: #a3a3a3;
+  font: inherit;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  outline: 0;
+  padding: 22px 18px;
+}
+.ticketView h2 {
+  color: #62bba5;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 40px;
+  margin: 0 0 16px;
+}
+.ticketView .textTicket {
+  color: black;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 0 0 16px;
+}
+.ticketView .textUser {
+  color: black;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 0 0 16px;
+}
+.ticketView .btn-search {
+  height: 45px;
+  background: #89bba5;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  color: white;
+}
+.ticketView .btn-system {
+  background: #89bba5;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  color: white;
+}
+.ticketView input,
+.ticketView textarea {
+  background: white;
+  color: #a3a3a3;
+  font: inherit;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  outline: 0;
+  padding: 22px 18px;
+}
+.footer {
+  font-size: 12px;
+  padding: 30px;
+  color: black;
+}
+@media (max-width: 768px) {
+  .ticketView .btn-search {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .topoSystem .menu {
+    margin: 0px 10px 10px 10px;
+  }
+  .ticketHome h2 {
+    margin: 30px 0 16px;
+  }
+}

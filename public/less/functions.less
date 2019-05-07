@@ -1,0 +1,47 @@
+
+
+/***********************Border Radius*****************************/
+//http://192.168.15.100/documentacao/index.php/2018/11/05/border-radius/
+//Nessa "função" borderRadius(), criamos um padrão de borda arredondada onde é possível alterar a borda apenas enviando o parâmetro desejado.
+.borderRadius (@radius: 5px) {
+	border-radius: @radius;
+	-moz-border-radius: @radius;
+	-webkit-border-radius: @radius;
+}
+//borderRadiusGlobal()
+//http://192.168.15.100/documentacao/index.php/2018/11/05/borderradiusglobal/
+//Sendo 4 parâmetros (topLeft, topRight, bottomRight, bottomLeft)
+.borderRadiusGlobal(@topLeft:0px,@topRight:0px,@bottomRight:0px,@bottomLeft:0px)
+{
+	border-radius: @topLeft @topRight @bottomRight @bottomLeft;
+	-moz-border-radius: @topLeft @topRight @bottomRight @bottomLeft;
+	-webkit-border-radius: @topLeft @topRight @bottomRight @bottomLeft;
+}
+
+/****************************************************************/
+
+/************************Box Shadow******************************/
+.boxShadow(@opacity:10px,@transparent:5px){
+	-webkit-box-shadow: 0px 0px @opacity @transparent rgba(204,204,204,1);
+	-moz-box-shadow: 0px 0px @opacity @transparent rgba(204,204,204,1);
+	box-shadow: 0px 0px @opacity @transparent rgba(204,204,204,1);
+}
+/****************************************************************/
+
+/**************************Padding*******************************/
+.padding(@padding:10px)
+{
+	padding: @padding;
+}
+
+.paddingGlobal(@top:0px,@right:0px,@bottom:0px,@left:0px)
+{
+	padding: @top @right @bottom @left;
+}
+/****************************************************************/
+.transform(@translate: none)
+{
+transform: @translate;
+-webkit-transform: @translate;
+-ms-transform: @translate;
+}

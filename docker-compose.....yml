@@ -1,0 +1,49 @@
+version: '3'
+services:
+  web-admin:
+    image: nginx:latest
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/code
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/000_site.conf
+      - ./logs/nginx:/var/log/nginx
+    depends_on:
+      - php
+    networks:
+      - rede
+  php:
+    build:
+      context: ./php71-fpm
+    volumes:
+      - .:/code
+    depends_on:
+      - db
+    networks:
+      - rede
+  phpadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    ports:
+      - '8082:80'
+    environment:
+      - PMA_ARBITRARY=1
+    networks:
+      - rede
+  db:
+    image: mysql:5.7
+    restart: always
+    volumes:
+     - ./data/db:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: westwing
+      MYSQL_DATABASE: westwing
+      MYSQL_USER: westwing
+      MYSQL_PASSWORD: westwing
+    networks:
+      - rede
+networks:
+  rede:
+    ipam:
+      driver: default
