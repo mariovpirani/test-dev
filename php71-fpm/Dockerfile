@@ -27,7 +27,6 @@ RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli
 # git
 RUN apt-get install -y --force-yes git-all
 # zip
-chmod 777 -R /code
 RUN apt-get install -y \
         libzip-dev \
         zip \

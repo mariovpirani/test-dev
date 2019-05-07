@@ -18,3 +18,14 @@
 2019/05/06 20:09:08 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
 2019/05/06 20:11:53 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
 2019/05/06 20:13:03 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/05/07 12:27:50 [error] 6#6: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2019/05/07 12:29:03 [error] 6#6: *3 open() "/usr/share/nginx/html/public" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /public HTTP/1.1", host: "0.0.0.0:8080"
+2019/05/07 12:29:06 [error] 6#6: *3 open() "/usr/share/nginx/html/public" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /public HTTP/1.1", host: "0.0.0.0:8080"
+2019/05/07 12:39:26 [error] 6#6: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2019/05/07 12:39:26 [error] 6#6: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2019/05/07 12:39:27 [error] 6#6: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2019/05/07 12:39:27 [error] 6#6: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2019/05/07 12:39:27 [error] 6#6: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2019/05/07 12:39:27 [error] 6#6: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2019/05/07 12:39:27 [error] 6#6: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2019/05/07 13:16:40 [error] 6#6: *4 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
