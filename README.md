@@ -31,12 +31,6 @@ Nesse teste foi solicitado desenvolver com laravel um sistema de ticket de supor
 - Link Phpmyadmin - http://0.0.0.0:8082/
 
 
-
-## Oportunidade
-
-Primeiramente quero agradecer pela oportunidade de participar dessa vaga, e qualquer dúvida no código estou a disposição para explicar meu raciocínio. 
-
-
 ## Vídeo  com passos do sistema
 
 http://tosempreai.com.br/video-teste/teste.mp4
